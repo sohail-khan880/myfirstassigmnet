@@ -1,0 +1,136 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  padding-block: 2px;
+  align-items: center;
+  /* background-color: bisque; */
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.btn_one button {
+  padding-inline: 20px;
+  padding-block: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(219, 202, 154);
+  border-radius: 10px;
+}
+.btn_one button:hover {
+  background-color: rgb(236, 208, 130);
+}
+.btn_Two button {
+  padding-inline: 20px;
+  padding-block: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(226, 172, 24);
+  border-radius: 10px;
+}
+.btn_Two button:hover {
+  background-color: rgb(250, 183, 0);
+}
+/* main section css */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 60px;
+  padding-block: 80px;
+}
+.heading h2 {
+  font-weight: 500;
+}
+.heading span {
+  color: rgb(226, 172, 24);
+}
+.image_container img {
+  height: 280px;
+  width: auto;
+}
+/* setion css */
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 60px;
+  padding-block: 40px;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 100px 100px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.section_cards {
+  height: 220px;
+  width: 350px;
+  background-color: white;
+  text-align: center;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.section_cards:hover {
+  transition: 1s;
+  margin-top: -20px;
+  cursor: pointer;
+  background: lightgray;
+  transform: scale(1.1);
+  /* transform: rotate(360deg); */
+}
+
+.section_cards p {
+  font-size: 14px;
+}
+
+.section_cards img {
+  height: 100px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .image_container img {
+    margin-left: -23px;
+    height: 225px;
+    width: auto;
+    margin-top: 50px;
+    gap: 2re;
+  }
+
+  .section {
+    gap: 30px;
+  }
+}
+
+footer {
+  padding-inline: 60px;
+  padding-block: 40px;
+  align-items: center;
+  display: flex;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
