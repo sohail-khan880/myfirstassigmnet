@@ -130,7 +130,15 @@ footer {
   align-items: center;
   display: flex;
 }
-.footer {
+
+.footer_div {
   display: flex;
   justify-content: space-between;
+  padding-inline: 40px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  line-height: 30px;
 }
